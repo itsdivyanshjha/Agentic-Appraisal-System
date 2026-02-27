@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+.testenv/
+
+# Environment
+.env
+
+# Data & models
+chroma_db/
+source_documents/
+reference_documents/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
