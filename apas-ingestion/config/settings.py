@@ -19,6 +19,11 @@ LLAMA_CLOUD_API_KEY = os.getenv("LLAMA_CLOUD_API_KEY", "")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-base-en-v1.5")
 EMBEDDING_DEVICE = os.getenv("EMBEDDING_DEVICE", "cpu")
 
+# LLM Extraction (OpenRouter)
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+EXTRACTION_MODEL = os.getenv("EXTRACTION_MODEL", "openai/gpt-4o-mini")
+EXTRACTION_CACHE_DIR = Path(os.getenv("EXTRACTION_CACHE_DIR", "./cache/"))
+
 # Logging
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 

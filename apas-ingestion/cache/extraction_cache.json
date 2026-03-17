@@ -1,0 +1,3016 @@
+{
+  "17e7052e6c36560428f0ce8d6b508fcd6948e1a17d51e7dee73fe78daaa39863": [
+    {
+      "clause_ref": "continuation-deadline",
+      "rule_statement": "Proposals for scheme continuation beyond 31.03.2021 must be submitted by 31.12.2020",
+      "direction": "Submission deadline set",
+      "ministry_must_show": "Proposals for scheme continuation",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "interim-extension",
+      "rule_statement": "Ongoing schemes extended until 31.03.2021 or until Finance Commission recommendations take effect",
+      "direction": "Interim extension granted",
+      "ministry_must_show": "Compliance with extension terms",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "c5602957ec9ddaa91b0460eb5a373e2bc4faf62ea5e590ab8fdf1a72d3a1a32e": [],
+  "988ce7efcc7ac8c9c2d61b5a7485c01a3154c47ded722732c248f3ce9dc9f0ce": [
+    {
+      "clause_ref": "1-continuation",
+      "rule_statement": "Continuation of schemes with financial implications within delegated powers requires appraisal and approval per guidelines",
+      "direction": "Follow existing guidelines",
+      "ministry_must_show": "Appraisal and approval documentation",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "1-exceptions",
+      "rule_statement": "Ongoing schemes with sunset dates before 2025-26 are exempt from the 5-year appraisal/approval rule",
+      "direction": "Recognize exceptions",
+      "ministry_must_show": "Documentation of approved sunset dates",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "1-deadline",
+      "rule_statement": "Complete appraisal/approval before 31-03-2021, considering third-party evaluations",
+      "direction": "Adhere to deadline",
+      "ministry_must_show": "Evidence of appraisal completion and evaluations",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "0e656e52c71c81656727034df6c6f2784c1db9ed2a7b34ef65a41e603863c9fc": [
+    {
+      "clause_ref": "2",
+      "rule_statement": "Proposals for schemes over Rs. 500 crore require EFC appraisal and approval",
+      "direction": "EFC appraisal mandatory",
+      "ministry_must_show": "Submit detailed proposal for EFC review",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2",
+      "rule_statement": "List of schemes with financial implications between Rs. 300-500 crore must be provided to DoE",
+      "direction": "Information submission required",
+      "ministry_must_show": "Annex list of relevant schemes",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "iii",
+      "rule_statement": "Umbrella schemes should ensure resource convergence across related schemes",
+      "direction": "Prioritize restructuring",
+      "ministry_must_show": "Plan for scheme consolidation",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "iv",
+      "rule_statement": "Standalone schemes' financial outlay determines appraisal authority as per DoE OM 24(35)/PF-II/2012",
+      "direction": "Follow appraisal guidelines",
+      "ministry_must_show": "Financial outlay details for appraisal",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "v",
+      "rule_statement": "Overall financial implications of umbrella schemes must be considered for appraisal authority",
+      "direction": "Single proposal for umbrella schemes",
+      "ministry_must_show": "Consolidated proposal for umbrella scheme",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "vi",
+      "rule_statement": "No standalone CSS or umbrella scheme should have financial outlay below Rs. 300 crore over five years",
+      "direction": "Minimum outlay requirement",
+      "ministry_must_show": "Compliance with financial outlay threshold",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "vii",
+      "rule_statement": "Umbrella schemes must have individual schemes with outlay not less than Rs. 25 crore, standalone CS schemes not less than Rs. 50 crore",
+      "direction": "Set financial minimums",
+      "ministry_must_show": "Outlay details for each scheme",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "viii",
+      "rule_statement": "Schemes with outlay less than Rs. 25 crore should be classified as projects or pilots",
+      "direction": "Classify appropriately",
+      "ministry_must_show": "Justification for project classification",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "ix",
+      "rule_statement": "Adhere to existing orders on scheme structure and funding patterns",
+      "direction": "Strict compliance required",
+      "ministry_must_show": "Evidence of adherence to orders",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "x",
+      "rule_statement": "Proposals must reflect convergence with similar schemes to avoid overlap",
+      "direction": "Ensure convergence",
+      "ministry_must_show": "Convergence architecture in proposal",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xi",
+      "rule_statement": "Avoid unnecessary administrative expenses and establish single monitoring bodies",
+      "direction": "Resource optimization",
+      "ministry_must_show": "Plan for monitoring body consolidation",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xii",
+      "rule_statement": "Common norms should be evolved and followed across similar schemes",
+      "direction": "Standardize norms",
+      "ministry_must_show": "List of common norms applied",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xiii",
+      "rule_statement": "Review and indicate staff requirements in proposals with financial implications",
+      "direction": "Staffing review required",
+      "ministry_must_show": "Staffing plan with financial details",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xiv",
+      "rule_statement": "Proposals must include Aadhaar authentication for beneficiary identification and fund disbursement",
+      "direction": "Implement Aadhaar system",
+      "ministry_must_show": "Aadhaar-enabled payment mechanism details",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xv",
+      "rule_statement": "Incorporate cashless and electronic transactions in scheme design",
+      "direction": "Promote digital transactions",
+      "ministry_must_show": "Plan for electronic transaction integration",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "9bb162d12e6cda3405f9255543395705b34960b13a6376e58f2797bc082e9a6f": [
+    {
+      "clause_ref": "1-scheme-name",
+      "rule_statement": "Specify the name of the Umbrella scheme for continuation",
+      "direction": "Provide scheme details",
+      "ministry_must_show": "Name of the relevant Umbrella scheme",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2-total-outlay",
+      "rule_statement": "Provide total outlay of the umbrella scheme, including scheme-wise and year-wise breakdown",
+      "direction": "Detailed financial disclosure required",
+      "ministry_must_show": "Outlay details with Central and State shares",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "8e82493196f94cecf8ba5724c453626955ef924891bbcbca6a923acea2fb4003": [
+    {
+      "clause_ref": "3-central-state-components",
+      "rule_statement": "Identify central components fully funded by the central government and state components shared with states/UTs",
+      "direction": "Component specification required",
+      "ministry_must_show": "Detailed breakdown of funding sources for components",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "e055b1da187f97e1d1e2b52c56b646124caa4edf5499c00169bbe3fe5529f5b2": [],
+  "c5f41c6f3158673330a603d409eb7951552fe522da5120f383fb5ef4cfd9d0ee": [
+    {
+      "clause_ref": "9-evaluation",
+      "rule_statement": "Submit evaluation report with major findings and comments on observations",
+      "direction": "Evaluation report required",
+      "ministry_must_show": "Attach detailed evaluation report",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "10-changes",
+      "rule_statement": "Propose major changes from earlier scheme with justification",
+      "direction": "Justification for changes needed",
+      "ministry_must_show": "Detailed justification for proposed changes",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "11-costing",
+      "rule_statement": "Report any major changes in costing norms",
+      "direction": "Costing norms disclosure",
+      "ministry_must_show": "Details of any changes in costing norms",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "12-convergence",
+      "rule_statement": "Outline convergence architecture with other central schemes",
+      "direction": "Convergence details required",
+      "ministry_must_show": "Convergence plan with other schemes",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "13-rationale",
+      "rule_statement": "Provide rationale for scheme continuation",
+      "direction": "Rationale required",
+      "ministry_must_show": "Clear rationale for continuation",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "14-output-outcomes",
+      "rule_statement": "Propose year-wise output/outcomes for the scheme",
+      "direction": "Year-wise outcomes needed",
+      "ministry_must_show": "Detailed year-wise output/outcome plan",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "15-sunset",
+      "rule_statement": "Specify the sunset date for the scheme",
+      "direction": "Sunset date required",
+      "ministry_must_show": "Proposed sunset date",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "16-posts-created",
+      "rule_statement": "Detail posts created for the scheme and financial implications",
+      "direction": "Post details required",
+      "ministry_must_show": "List of posts and financial implications",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "17-additional-posts",
+      "rule_statement": "Propose any additional posts with financial implications",
+      "direction": "Additional posts proposal needed",
+      "ministry_must_show": "Details of proposed additional posts",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "18-stakeholder-comments",
+      "rule_statement": "Include comments from stakeholders and responses in tabular form",
+      "direction": "Stakeholder feedback required",
+      "ministry_must_show": "Tabular format of comments and responses",
+      "om_id": "OM-6",
+      "om_number": "42(02)/PF-II/2014",
+      "date": "2020-12-08",
+      "nature": "Scheme Continuation",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "60e71db278684fed568309960565adf9d2677b8b2ac050fc9961c434c276a56e": [],
+  "3cf1ede45551253d23a06e2751c01894fdcd71b5eba6a2c6d1259b42eedddaeb": [],
+  "232ff3541bc6f4407b67178009014049997daee7afef25668ba4dd8b7c6e527f": [
+    {
+      "clause_ref": "2-evaluation-comments",
+      "rule_statement": "Ministry/Department must provide comments on Third-Party Evaluation findings and attach the evaluation copy",
+      "direction": "Submit evaluation feedback",
+      "ministry_must_show": "Comments on evaluation findings and evaluation report",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "3-components",
+      "rule_statement": "Details of components being dropped, merged, modified, or newly added must be provided with justifications",
+      "direction": "Component details required",
+      "ministry_must_show": "Comprehensive list of component changes and justifications",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "4-yearly-outlay",
+      "rule_statement": "Year-wise outlay for the proposed scheme must be detailed for specified years",
+      "direction": "Provide financial projections",
+      "ministry_must_show": "Year-wise outlay table for 2026-31",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "5-expenditure",
+      "rule_statement": "Actual Expenditure of the existing scheme for the last 4 years must be reported along with eligible outlay calculation",
+      "direction": "Report past expenditure",
+      "ministry_must_show": "Expenditure data and eligible outlay calculation",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "5-eligible-outlay",
+      "rule_statement": "Proposed outlay must be within eligible outlay; if not, reasons for excess must be provided",
+      "direction": "Justify outlay excess",
+      "ministry_must_show": "Confirmation of outlay compliance or justification for excess",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "6-fund-sharing",
+      "rule_statement": "Fund sharing ratio between Centre and States for Centrally Sponsored Schemes must be detailed",
+      "direction": "Specify fund ratios",
+      "ministry_must_show": "Fund sharing ratio table and justifications for variations",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "8-cost-norms",
+      "rule_statement": "Any changes in cost norms compared to the existing scheme must be justified",
+      "direction": "Justify cost changes",
+      "ministry_must_show": "Details of cost norm changes and justifications",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "9-sunset-clause",
+      "rule_statement": "Every Central Scheme must have a sunset clause with proposed interventions to fulfill it",
+      "direction": "Define sunset interventions",
+      "ministry_must_show": "Description of sunset clause interventions",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "0-posts-created",
+      "rule_statement": "Details of posts created for the existing scheme and any proposed additional posts must be provided",
+      "direction": "Report staffing details",
+      "ministry_must_show": "List of posts and financial implications",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "diagrams-flow-charts",
+      "rule_statement": "Diagrammatic representations of scheme implementation structure and fund flow must be provided",
+      "direction": "Submit diagrams",
+      "ministry_must_show": "Diagrams of implementation structure and fund flow",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    }
+  ],
+  "50941b5e50d238406caf474d3584870d699b74fbb5aa0961623290833249bc95": [
+    {
+      "clause_ref": "1.7-evaluation",
+      "rule_statement": "Ministry/Department must provide comments on Third-Party Evaluation findings and attach the evaluation copy",
+      "direction": "Submit evaluation feedback",
+      "ministry_must_show": "Comments on evaluation findings and evaluation report",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "3-components",
+      "rule_statement": "Details of components being dropped, merged, modified, or newly added must be provided with justification",
+      "direction": "Component details required",
+      "ministry_must_show": "List of changes with justifications",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "4-yearly-outlay",
+      "rule_statement": "Year-wise outlay for the proposed scheme must be detailed for 2026-31",
+      "direction": "Provide financial projections",
+      "ministry_must_show": "Year-wise outlay table",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "5-actual-expenditure",
+      "rule_statement": "Actual expenditure for the last 4 years must be reported along with eligible outlay calculation",
+      "direction": "Report past expenditures",
+      "ministry_must_show": "Expenditure data and eligible outlay calculation",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "5-eligible-outlay",
+      "rule_statement": "Proposed outlay must be within eligible outlay; if not, reasons for excess must be provided",
+      "direction": "Justify outlay excess",
+      "ministry_must_show": "Reasons for exceeding eligible outlay",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "6-fund-sharing",
+      "rule_statement": "Fund sharing ratio between Centre and States for CSS must be uniform unless justified otherwise",
+      "direction": "Specify fund sharing ratios",
+      "ministry_must_show": "Details and justification for differing ratios",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "8-cost-norms",
+      "rule_statement": "Any changes in cost norms compared to the existing scheme must be justified",
+      "direction": "Justify cost changes",
+      "ministry_must_show": "Details of cost norm changes and justifications",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "9-sunset-clause",
+      "rule_statement": "Every Central Scheme must have a sunset clause with proposed interventions described",
+      "direction": "Define sunset interventions",
+      "ministry_must_show": "Description of sunset clause interventions",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "0-posts-created",
+      "rule_statement": "Details of posts created for the existing scheme and any proposed additional posts must be provided",
+      "direction": "Report staffing details",
+      "ministry_must_show": "Details of posts and financial implications",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    },
+    {
+      "clause_ref": "diagrams-flow-charts",
+      "rule_statement": "Diagrammatic representations of scheme implementation structure and fund flow must be provided",
+      "direction": "Submit diagrams",
+      "ministry_must_show": "Diagrams of implementation and fund flow",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    }
+  ],
+  "6a0ffa26e113bddf1a7d30573b4f02c4f7ca58a56a51ec594e583ece5e9d5eba": [
+    {
+      "clause_ref": "1-schemes",
+      "rule_statement": "No new Scheme or Sub-Scheme can start without prior in-principle approval from DoE, except Budget Speech announcements.",
+      "direction": "Prior clearance required",
+      "ministry_must_show": "Attach DoE in-principle approval reference",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "e0c9c8ec979562b0ef6b4244e3728626272c1bc7f7b97dbfabba26d8376d1eb5": [
+    {
+      "clause_ref": "1-budget-estimates",
+      "rule_statement": "Budget Estimates must align with approved scheme architecture; deviations require prior agreement with DoE",
+      "direction": "Alignment with approvals mandatory",
+      "ministry_must_show": "Agreement from DoE for any deviations",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "c615738dc7458bed8c2cf7b472fd4d89745e950e1a1d3a86a086cdca159218b3": [
+    {
+      "clause_ref": "2-restructuring",
+      "rule_statement": "Administrative Ministries must merge, restructure, or drop redundant schemes without needing in-principle approval",
+      "direction": "Scheme optimization encouraged",
+      "ministry_must_show": "Evidence of redundancy or ineffectiveness",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "eb2ff6535f8b236d69f94c19624dc077053abbb155b1c27674c861ee55e93ac7": [
+    {
+      "clause_ref": "3-merger",
+      "rule_statement": "DoE can merge, restructure, or drop schemes to improve efficiency after consulting the Administrative Department",
+      "direction": "Right to restructure schemes",
+      "ministry_must_show": "Consultation records with Administrative Department",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5-concept-paper",
+      "rule_statement": "Prepare a Concept Paper for new schemes while seeking in-principle approval and stakeholder consultations",
+      "direction": "Concept Paper required",
+      "ministry_must_show": "Concept Paper and stakeholder feedback",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5-rationalization",
+      "rule_statement": "Ongoing schemes must be rationalized by merging or dropping redundant schemes",
+      "direction": "Rationalization mandatory",
+      "ministry_must_show": "Rationalization report for ongoing schemes",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5-feasibility-report",
+      "rule_statement": "Project preparation must start with a Feasibility Report to confirm techno-economic soundness",
+      "direction": "Feasibility Report needed",
+      "ministry_must_show": "Feasibility Report and resource availability",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "7-new-bodies",
+      "rule_statement": "No new body should be set up without Cabinet approval, regardless of outlay",
+      "direction": "Cabinet approval required",
+      "ministry_must_show": "Cabinet approval documentation",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "8-oce-delegation",
+      "rule_statement": "Delegation of powers for appraisal and approval of Original Cost Estimates varies by cost thresholds",
+      "direction": "Follow appraisal delegation",
+      "ministry_must_show": "Compliance with appraisal thresholds",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "3af8113eac5d13a2dc5044cfdc969f4487169155ec9fff262524f344a1127c83": [],
+  "ca660a91c14ad4ebf3ffa92b80589903154461f69feeadb74ed58b9fd85266e2": [
+    {
+      "clause_ref": "2-participation",
+      "rule_statement": "Financial Advisers can refer financial matters to DoE; mandatory for proposals above Rs. 300 crore",
+      "direction": "Mandatory DoE participation",
+      "ministry_must_show": "Inclusion of DoE in SFC/DIB meetings for large proposals",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "6d00d8d87f206c76e7deca016be3a70f223cb2e019b3a47cef4c825d32352bd2": [
+    {
+      "clause_ref": "3-delegated-powers",
+      "rule_statement": "Delegated powers can only be used if budget allocation or medium-term outlay is approved by DoE",
+      "direction": "Budget availability required",
+      "ministry_must_show": "Confirmation of budgetary allocation from DoE",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "6324874bbfbe8e590bb7197e5b904d010cb047bca2ec81ddf5a7be9469cf8dcb": [
+    {
+      "clause_ref": "4-delegated-powers",
+      "rule_statement": "Ministries/Departments must rigorously examine proposals in project design and delivery",
+      "direction": "Rigorous examination required",
+      "ministry_must_show": "Evidence of thorough project review process",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "4-liabilities-fund",
+      "rule_statement": "Attention to recurring liabilities and fund availability post adjustment of committed liabilities is essential",
+      "direction": "Monitor liabilities and funds",
+      "ministry_must_show": "Assessment of recurring liabilities and fund status",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "b9dabe3170ca202d784ea84683e5849b369705e7565140df60bee6ba99440e89": [
+    {
+      "clause_ref": "5-PPP-appraisal",
+      "rule_statement": "Separate orders from Department of Economic Affairs apply for PPP project appraisal and approval",
+      "direction": "Follow separate orders",
+      "ministry_must_show": "Compliance with DoEA orders for PPP projects",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "9-cost-increase",
+      "rule_statement": "Cost increases up to 20% due to various reasons approved by Secretary with Financial Adviser's concurrence",
+      "direction": "Approval required for cost increase",
+      "ministry_must_show": "Secretary's approval and Financial Adviser's concurrence",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "9-revised-cost",
+      "rule_statement": "Increases beyond 20% must be reviewed by a Revised Cost Committee before further approval",
+      "direction": "Committee review mandatory",
+      "ministry_must_show": "Submission to Revised Cost Committee for review",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "10-pre-investment",
+      "rule_statement": "Pre-investment activities up to Rs. 100 crore can be approved by Secretary with Financial Adviser's concurrence",
+      "direction": "Approval for pre-investment activities",
+      "ministry_must_show": "Financial resources availability and in-principle approval",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "10-above-100-crore",
+      "rule_statement": "Pre-investment activities above Rs. 100 crore require full appraisal and approval procedure",
+      "direction": "Full appraisal required",
+      "ministry_must_show": "Follow prescribed appraisal and approval process",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "medium-term-sunset",
+      "rule_statement": "All schemes must have a sunset date and undergo outcome review at the end of the Twelfth Plan period",
+      "direction": "Sunset date required",
+      "ministry_must_show": "Outcome review submission for appraisal",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "outcomes-evaluation",
+      "rule_statement": "Output-outcome framework must be prepared for each scheme with NITI Aayog's approval",
+      "direction": "Framework preparation required",
+      "ministry_must_show": "Output-outcome framework approved by NITI Aayog",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "evaluation-continuation",
+      "rule_statement": "Extension of schemes to next Finance Commission Cycle contingent on third-party evaluation results",
+      "direction": "Evaluation required for extension",
+      "ministry_must_show": "Results of third-party evaluation",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "b2c194380808ca1268ed81937908221c5b7f8a5754418ad05055d71813f96249": [
+    {
+      "clause_ref": "1-measurable-outcomes",
+      "rule_statement": "Define measurable outcomes for each scheme for the medium term until 2019-20",
+      "direction": "Outcomes must be specified",
+      "ministry_must_show": "Documented measurable outcomes for schemes",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "328aece07f06b4d9ef90ea75ba9b649e7c506dfafbeafb777cc3bc7a52d28ac9": [
+    {
+      "clause_ref": "budget-projection",
+      "rule_statement": "Budget allocation for 2016-17 should project a normative increase of 5-10% annually until 2019-20",
+      "direction": "Normative budget increase",
+      "ministry_must_show": "Projected budget allocations for 2017-20",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "b87566027014ccf391884f56cf72de998c6d6e8bc81cb8646abd5b511f0beab9": [
+    {
+      "clause_ref": "3-outputs",
+      "rule_statement": "Yearly physical outputs must align with projected financial resources and measurable outcomes",
+      "direction": "Align outputs with resources",
+      "ministry_must_show": "Demonstrate consistency with financial and outcome metrics",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "afeec75c92cce793b327fdc1dae79b0d7d05037c52ec47ef51f42d350ce8a6df": [
+    {
+      "clause_ref": "4-output-outcome",
+      "rule_statement": "Output-outcome framework must be approved by CEO, NITI Aayog by 30 June 2016",
+      "direction": "Approval required",
+      "ministry_must_show": "Submission of approved framework by deadline",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "7400e7393b87db40d731740da44f8b11f917888b68f37ff07f31f14559d59dca": [
+    {
+      "clause_ref": "5-evaluation",
+      "rule_statement": "Each scheme must have an evaluation framework; continuation beyond the Fourteenth Finance Commission depends on evaluation results",
+      "direction": "Evaluation required for continuation",
+      "ministry_must_show": "Submit evaluation framework and results to NITI Aayog",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5-outcome-parameters",
+      "rule_statement": "Identify outcome parameters as indicators of desired outcomes; prioritize for upcoming budgets",
+      "direction": "Prioritize outcome identification",
+      "ministry_must_show": "List of identified outcome parameters for budget planning",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "b70b3bed3d2d755a28d9fd4b792aac2fa62c02f57bf159cb18ef5c4fd93f8e8f": [],
+  "e44438d185842522a327a50a2834f0f32b4bae24b1c8e3706dab73179026f9af": [
+    {
+      "clause_ref": "3.3-modified",
+      "rule_statement": "Beneficiary-oriented schemes must specify if they are DBT schemes and detail beneficiary identification via Aadhaar authentication",
+      "direction": "DBT scheme identification required",
+      "ministry_must_show": "Mechanism for Aadhaar authentication and fund disbursement",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "3.3-funds",
+      "rule_statement": "Funds must be disbursed through APBS using the DBT scheme code",
+      "direction": "Use APBS for disbursement",
+      "ministry_must_show": "DBT scheme code for fund disbursement",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    }
+  ],
+  "6220cb8d7f91f2f38708c72932aa5304b467253fb0de05b4acadca0127a35747": [],
+  "1e157b27f459c5f93f3f5f13ac67b81407c1700d7de3ad5c9ff717ef3b589037": [
+    {
+      "clause_ref": "4(i)",
+      "rule_statement": "EFC/SFC proposals for new schemes must use the revised format and include required enclosures",
+      "direction": "Use prescribed format",
+      "ministry_must_show": "Complete proposals in Annexure-A format with checklist",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "4(ii)",
+      "rule_statement": "Obtain in-principle approval from DoE before initiating any new scheme or sub-scheme",
+      "direction": "Prior clearance required",
+      "ministry_must_show": "Reference to DoE's prior approvals as per specified OMs",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "consultation",
+      "rule_statement": "Consult NITi Aayog for new schemes as part of the approval process",
+      "direction": "Engage with NITi Aayog",
+      "ministry_must_show": "Evidence of consultation with NITi Aayog",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    }
+  ],
+  "14a6d0227de1344a7d5f056159c9faa398c6d962db4ed602dadcc42a6cd0285b": [
+    {
+      "clause_ref": "5",
+      "rule_statement": "All EFC/SFC proposals or new schemes must be submitted after 15.11.2023",
+      "direction": "Submission deadline set",
+      "ministry_must_show": "Ensure proposals are dated post 15.11.2023",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "Annexure-A",
+      "rule_statement": "EFC/SFC memorandum must include a summary sheet with specified details",
+      "direction": "Format compliance required",
+      "ministry_must_show": "Complete summary sheet as per format",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "Annexure-A",
+      "rule_statement": "Attach necessary documents like concept paper and evaluation report as per the format",
+      "direction": "Document attachment mandatory",
+      "ministry_must_show": "All required documents attached",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "6.1",
+      "rule_statement": "Mandatory approvals and clearances must be indicated in a tabular form",
+      "direction": "Approval tracking required",
+      "ministry_must_show": "Table of approvals with status",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "7.1",
+      "rule_statement": "Administrative structure and manpower requirements must be detailed for scheme implementation",
+      "direction": "Manpower details required",
+      "ministry_must_show": "Complete table of administrative structure",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "8.1",
+      "rule_statement": "Monitoring systems must be established and detailed for the scheme",
+      "direction": "Monitoring framework needed",
+      "ministry_must_show": "Outline of monitoring systems",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "8.2",
+      "rule_statement": "Third-party evaluations must be arranged and budgeted for",
+      "direction": "Evaluation funding required",
+      "ministry_must_show": "Funds earmarked for evaluations",
+      "om_id": "OM-7",
+      "om_number": "01(01)/PFC-1/2022",
+      "date": "2023-10-03",
+      "nature": "Procedural Reform",
+      "applies_to": "new_scheme",
+      "agent_scope": "compliance"
+    }
+  ],
+  "cd3e45fbefb30ba07a44770e8aec93879a9221a8188069c140258fbd21125bc9": [
+    {
+      "clause_ref": "4(i)",
+      "rule_statement": "No new scheme or sub-scheme initiated without prior in-principle approval from DoE, except Budget Speech announcements",
+      "direction": "Prior clearance required",
+      "ministry_must_show": "Attach DoE in-principle approval reference",
+      "om_id": "OM-2",
+      "om_number": "01(01)/PFC-II/2022",
+      "date": "2022-10-21",
+      "nature": "Compliance Enforcement",
+      "applies_to": "new_scheme,project",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "compliance-enforcement",
+      "rule_statement": "Ministries must adhere to approval process or face budgetary support reduction",
+      "direction": "Strict adherence required",
+      "ministry_must_show": "Evidence of compliance with approval process",
+      "om_id": "OM-2",
+      "om_number": "01(01)/PFC-II/2022",
+      "date": "2022-10-21",
+      "nature": "Compliance Enforcement",
+      "applies_to": "new_scheme,project",
+      "agent_scope": "compliance"
+    },
+    {
+      "clause_ref": "information-reporting",
+      "rule_statement": "Submit list of approved schemes/projects with proposals for in-principle approval",
+      "direction": "Submit detailed list",
+      "ministry_must_show": "List of schemes/projects approved in last three years",
+      "om_id": "OM-2",
+      "om_number": "01(01)/PFC-II/2022",
+      "date": "2022-10-21",
+      "nature": "Compliance Enforcement",
+      "applies_to": "new_scheme,project",
+      "agent_scope": "compliance"
+    }
+  ],
+  "0458275c0d745b0b19d4086701f1f311e1663442daa8f626f679592337c64426": [
+    {
+      "clause_ref": "sunset",
+      "rule_statement": "Every scheme must have a sunset date for continuation based on outcome review",
+      "direction": "Establish sunset dates",
+      "ministry_must_show": "Outcome review report justifying continuation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "co-terminous",
+      "rule_statement": "Schemes must align with the financial resource cycles of Central and State governments",
+      "direction": "Align with FC cycles",
+      "ministry_must_show": "Evidence of alignment with Finance Commission cycles",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "7eebd15617109b1acedff965b6fe76fe51b7fc7bbd3ba75b274799bee8c4ba5d": [
+    {
+      "clause_ref": "2-continuation-appraisal",
+      "rule_statement": "Schemes ending on 31.03.2026 must undergo appraisal for continuation in the next FC cycle",
+      "direction": "Appraisal required for continuation",
+      "ministry_must_show": "Outcome review results and appraisal memos",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2-third-party-evaluation",
+      "rule_statement": "Central Sector Schemes require Third Party Evaluation as per issued ToRs",
+      "direction": "Conduct evaluation",
+      "ministry_must_show": "Third Party Evaluation report",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2-appraisal-deadline",
+      "rule_statement": "Appraisal memos must be submitted to DoE by 31.10.2025",
+      "direction": "Submit appraisal memos",
+      "ministry_must_show": "EFC/SFC memos for DoE review",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "82fe712d094e236b98104126e2905d112861944f6c947fc599e5cb43d950d04e": [],
+  "18b000f268ec277e7189a42e5904c51fac1fb76e7d80153b8c4aeb8240cc8751": [
+    {
+      "clause_ref": "1-outlay-500crore",
+      "rule_statement": "Schemes with outlay up to Rs 500 Crore can be approved by Administrative Ministry as per DoE guidelines",
+      "direction": "Administrative approval allowed",
+      "ministry_must_show": "Complete appraisal before 31.03.2026",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "1-third-party-evaluation",
+      "rule_statement": "Appraisal/approval must consider third-party evaluation reports",
+      "direction": "Consider evaluations",
+      "ministry_must_show": "Cognizance of evaluation reports in appraisal",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "1-scheme-list",
+      "rule_statement": "Submit a list of all approved schemes to DoE in prescribed format",
+      "direction": "List submission required",
+      "ministry_must_show": "List in Annexure I format",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "a6ed421d3766eac973f85922b3531c8177f7ce008a767b51dbdd4531bddfc0ba": [
+    {
+      "clause_ref": "2-scheme-outlay",
+      "rule_statement": "Schemes with outlay above Rs 500 Crore require appraisal and approval through EFC",
+      "direction": "EFC approval mandatory",
+      "ministry_must_show": "Submit appraisal documents as per DoE OM No. 24(35)/PF-II/2012",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "cf26c524247fd9f3f9f7d632a664623f88c81ebdc90769911dcf1584132ebccd": [
+    {
+      "clause_ref": "3-minimum-outlay",
+      "rule_statement": "No CSS should have a financial outlay below Rs. 300 crore for five years",
+      "direction": "Minimum financial threshold",
+      "ministry_must_show": "Compliance with financial outlay requirement",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "67d844ccb998ddc9bf23d3710ca3a2ddf9ee3e66f5b635474e9965eaf9fbbfa8": [
+    {
+      "clause_ref": "4-financial-outlay",
+      "rule_statement": "Financial outlay for CSs must be at least Rs. 50 crore over five years",
+      "direction": "Minimum financial requirement",
+      "ministry_must_show": "Confirmation of financial outlay compliance",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "c947b49d7ab18bc6153e294e65d591b2afff69b1e87f0fa96813159121233e2a": [
+    {
+      "clause_ref": "5-continuation",
+      "rule_statement": "Central Sector Schemes under Rs 100 Crore should achieve purpose in a cycle, else need evaluation for continuation",
+      "direction": "Evaluation required for continuation",
+      "ministry_must_show": "Evaluation report justifying scheme's continuation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5-appraisal",
+      "rule_statement": "If continued, schemes must undergo appraisal/approval as per DoE OM 24(35)/PF-II/2012",
+      "direction": "Appraisal/approval mandatory",
+      "ministry_must_show": "Submit for appraisal as per specified guidelines",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "65fc40d78330e982cc7b8cac24745a76e805892a3ce53803c5572194587cf591": [
+    {
+      "clause_ref": "6-outlay-limit",
+      "rule_statement": "Total projected outlay for a continuing scheme should not exceed 5.5 times the average annual expenditure",
+      "direction": "Outlay cap enforced",
+      "ministry_must_show": "Calculation of average annual expenditure for specified FYs",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "4b7fbc234d89793ec157ee874dee113c1d971b8b4b35606cab97d3d8ed170f57": [
+    {
+      "clause_ref": "7-flexibility",
+      "rule_statement": "Ministries can request more funds for a scheme if they reduce another scheme's budget with justification",
+      "direction": "Funding flexibility allowed",
+      "ministry_must_show": "Specific justification for fund reallocation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "d01a11c61bd5f32e86e8fbbe0501e16d4064eb9efebb68816ce5b0e3467d5ae1": [
+    {
+      "clause_ref": "8-fund-limited",
+      "rule_statement": "All schemes must operate within the approved outlay limits over the FC cycle",
+      "direction": "Adhere to funding limits",
+      "ministry_must_show": "Compliance with total sanctions against approved outlay",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "8b10097bcb581ed4bfded1439cbb4e63f345ddc0200487c593c50e534fff0017": [
+    {
+      "clause_ref": "9-saturation-demand",
+      "rule_statement": "Outlay for saturation schemes based on estimated number of beneficiaries; sanctions limited to approved outlay",
+      "direction": "Outlay determination required",
+      "ministry_must_show": "Estimated beneficiary numbers in EFC Memo",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "9-carry-forward",
+      "rule_statement": "Carry forward committed expenditure within approved outlay to next FC cycle allowed",
+      "direction": "Flexibility in expenditure",
+      "ministry_must_show": "Details of spillover expenditure in EFC Memo",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "9-upward-revision",
+      "rule_statement": "Seek specific approval for increased outlay if beneficiaries exceed projections during scheme duration",
+      "direction": "Approval for outlay increase",
+      "ministry_must_show": "Request for increased outlay with DoE concurrence",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "4600b2189883133168852124577a6bda983ffab1e28942628b38a7943b2a6a46": [
+    {
+      "clause_ref": "funding-pattern",
+      "rule_statement": "Funding pattern for CSS must align with NITI Aayog's specified OMs from 2016 and 2019",
+      "direction": "Follow NITI Aayog guidelines",
+      "ministry_must_show": "Compliance with NITI Aayog's funding directives",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "fc6dc0702ca14499b62e00a2360ed7a3b67b885dee04ea2c9054b482612f5d43": [
+    {
+      "clause_ref": "xi",
+      "rule_statement": "Ministries must respond quickly to draft Evaluation Report from NITI Aayog",
+      "direction": "Timely feedback required",
+      "ministry_must_show": "Prompt response to draft recommendations",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xi",
+      "rule_statement": "Ministries must consider Evaluation Report recommendations when formulating schemes",
+      "direction": "Incorporate evaluation findings",
+      "ministry_must_show": "Appraisal Memo reflecting report recommendations",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "751bfa99796ffaed4d143f49ed8acbbe54eb53427a886736d9290b5f82d012ac": [
+    {
+      "clause_ref": "continuation-approval",
+      "rule_statement": "Continuation approval requires a positive evaluation report demonstrating effectiveness and need for continuation",
+      "direction": "Evaluation report mandatory",
+      "ministry_must_show": "Submit evaluation report with positive outcomes and justification for continuation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "87e461f8f4f2eae543a49d7138fc89132ab1aa1cf497a95b1de2550d6c5e52cb": [
+    {
+      "clause_ref": "continuation-modifications",
+      "rule_statement": "A scheme may continue as is or with modifications based on evaluation findings",
+      "direction": "Evaluate and adjust schemes",
+      "ministry_must_show": "Evaluation report and proposed modifications if any",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "64e903b6a33cca3fbc9d56d52b3c246f940e2965a452fce70a044f988db50884": [
+    {
+      "clause_ref": "xiv",
+      "rule_statement": "Consider XVIth FC recommendations when appraising scheme continuation and financial outlay",
+      "direction": "Incorporate FC recommendations",
+      "ministry_must_show": "Evidence of FC recommendations in appraisal",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "d348a1dacdb931cf0169f5772ecd43fb791581870e718c9304ed8a3f10becb24": [
+    {
+      "clause_ref": "continuation-engagement",
+      "rule_statement": "Ministries must engage with States for prioritizing National goals in continuing schemes",
+      "direction": "Ensure collaboration",
+      "ministry_must_show": "Evidence of engagement and alignment with National goals",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "7f4e9c2326bcd774a9d00b8e49d4b727c142859a25d5db2bfd799cab1c520937": [
+    {
+      "clause_ref": "1-circulation",
+      "rule_statement": "Ministries/Departments must circulate Appraisal Memos to all stakeholders and include their comments",
+      "direction": "Stakeholder engagement required",
+      "ministry_must_show": "Final Appraisal Memo with incorporated comments",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "b2ddbe675fd70001ea62fc05236b6dfd31b71d30b158d624de3ddea3c50dbde9": [
+    {
+      "clause_ref": "2-timelines",
+      "rule_statement": "Timelines for finalizing Cabinet notes must be adhered to for the appraisal process",
+      "direction": "Follow mandated timelines",
+      "ministry_must_show": "Compliance with specified timelines in appraisal",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "d0cba562de81d902df20cfc7d1d26ff75467570a2048d6348d78b353aed78572": [
+    {
+      "clause_ref": "3-submission",
+      "rule_statement": "Ministries/Departments must submit Appraisal Memo with evaluation reports by 31st October 2025",
+      "direction": "Timely submission required",
+      "ministry_must_show": "Appraisal Memo and evaluation reports",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "b53c1b49dc489a051c4020b58027e8d82e9c76506b5bcc2bed52f6619de380e8": [
+    {
+      "clause_ref": "4-appraisal",
+      "rule_statement": "Fresh appraisal and approval required for schemes beyond 31.03.2026",
+      "direction": "Fresh appraisal mandatory",
+      "ministry_must_show": "Submit composite appraisal for all schemes",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "scheme-structure",
+      "rule_statement": "Schemes must maintain consistent funding patterns across components unless justified otherwise",
+      "direction": "Consistency in funding required",
+      "ministry_must_show": "Justification for any funding deviations",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "common-norms",
+      "rule_statement": "Follow common norms like Skilling and UGC norms for costing",
+      "direction": "Adhere to common costing norms",
+      "ministry_must_show": "Costing aligned with established norms",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "aadhaar-modification",
+      "rule_statement": "Proposals must modify implementation for Aadhaar seeding and direct benefits transfer",
+      "direction": "Implement Aadhaar changes",
+      "ministry_must_show": "Plan for Aadhaar authentication in proposals",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "aeps-disbursement",
+      "rule_statement": "Funds must be disbursed through AEPS for Aadhaar authentication",
+      "direction": "Use AEPS for disbursement",
+      "ministry_must_show": "Disbursement plan via AEPS",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "cashless-transactions",
+      "rule_statement": "Incorporate cashless and electronic transactions in scheme design",
+      "direction": "Promote cashless transactions",
+      "ministry_must_show": "Plan for electronic transaction integration",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "ace16ff216b81f5c49188b05a17e70d4b19cc63f303774e053c8fbaf7d0ffc51": [
+    {
+      "clause_ref": "inter-component-flexibility",
+      "rule_statement": "Schemes should allow resource transfer across components for effectiveness, but with a spending ceiling",
+      "direction": "Resource transfer allowed with limits",
+      "ministry_must_show": "Ceiling details and justification in Appraisal Memo",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "3f4f3adf615be70db95419359dedeb648ec1a629bc85d4ed1517f53b0e91a0ba": [
+    {
+      "clause_ref": "flexi-fund",
+      "rule_statement": "Ministries and Departments should utilize the 25% flexi-fund allowance for CSSs as per NITI Aayog's guidelines",
+      "direction": "Utilize flexi-fund allowance",
+      "ministry_must_show": "Evidence of flexi-fund usage in CSSs",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "f2e9d19b6b4d4d672417c6526e308b4a537d0ce3981a552b17223847d47ada75": [
+    {
+      "clause_ref": "continuation-recalibrate",
+      "rule_statement": "Recalibrate scheme design and architecture based on evaluations and implementation experience",
+      "direction": "Design adjustments allowed",
+      "ministry_must_show": "Revised scheme design documentation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "continuation-restructure",
+      "rule_statement": "Restructure schemes to eliminate redundancies and ineffective interventions",
+      "direction": "Remove inefficiencies",
+      "ministry_must_show": "Restructuring plan with identified redundancies",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "continuation-close",
+      "rule_statement": "Close schemes that are no longer useful or have met their objectives",
+      "direction": "Scheme closure permitted",
+      "ministry_must_show": "Closure rationale and final report",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "8d782773ab5c4d9e11eb5fd57b4f9a070bcc6c1e95a1259410f096ce97046e1d": [
+    {
+      "clause_ref": "xxvii",
+      "rule_statement": "Proposals must show clear convergence with similar schemes to avoid overlap of activities for target beneficiaries",
+      "direction": "Ensure scheme alignment",
+      "ministry_must_show": "Convergence architecture with related schemes",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "b80c5abefd8506d257a6e149765e11db83e1d91181b2046b679a02e9a1cefae9": [
+    {
+      "clause_ref": "xxviii",
+      "rule_statement": "Ministries must assess ongoing schemes for potential mergers or drops due to overlapping objectives",
+      "direction": "Scheme evaluation required",
+      "ministry_must_show": "Report on scheme overlaps and recommendations",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "ced7640dc8385be7d396062dc2d1c2d342ac75dceebcfcbe7e057a64702adb25": [
+    {
+      "clause_ref": "rationalization",
+      "rule_statement": "Ministries must rationalize existing schemes before proposing continuation of any scheme",
+      "direction": "Ensure scheme rationalization",
+      "ministry_must_show": "Evidence of rationalization efforts",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "1342b54fe241b39e484216b134c410a83826f2aef1f5fbb871bb080813d99cfc": [
+    {
+      "clause_ref": "establishment-avoidance",
+      "rule_statement": "Avoid unnecessary creation of establishments and administrative expenses; minimize resource spread",
+      "direction": "Resource optimization required",
+      "ministry_must_show": "Justification for establishment and resource allocation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "monitoring-body",
+      "rule_statement": "Establish a single monitoring body like a PMU at Central or state level",
+      "direction": "Centralized monitoring mandated",
+      "ministry_must_show": "Details of the proposed PMU structure and function",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "8953452db2ce2c2120354a064680c97e2a1586061507f2f389a33a60b823beee": [
+    {
+      "clause_ref": "xxx1-permanent-posts",
+      "rule_statement": "Implementation of CSSs and CSs should not create permanent posts",
+      "direction": "No permanent posts allowed",
+      "ministry_must_show": "Confirmation of no permanent post creation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "cf21f1c47d0eabf909edfc5763a5594a12f2d3e5ed18eebcdc7f7d4b0ce7d412": [
+    {
+      "clause_ref": "4-appraisal-schedule",
+      "rule_statement": "Appraisal of schemes must follow a separately informed schedule",
+      "direction": "Adhere to appraisal schedule",
+      "ministry_must_show": "Compliance with the provided appraisal timeline",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "4-expenditure-approval",
+      "rule_statement": "Expenditures for schemes expiring on 31.03.2026 require completed appraisal and approval by that date",
+      "direction": "Timely completion required",
+      "ministry_must_show": "Proof of completed appraisal and approval before expenditure",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "34a2ba11b7c5f257ce240eebc4a06e1d22662eac84f15e68ba048a931d153cde": [],
+  "b881d96572a22ebbc6d3573e030f6e1c268b4bd36241910b89e8bed95db47cf6": [],
+  "558fae543db9a485b87452ff2b600da6f7a910babb0403d8336c3ea323cb3351": [],
+  "c1cbf4e20a1a1c464593d169d92eeca6421b8efa8880a62b4c4323f6eaf919dc": [
+    {
+      "clause_ref": "3-transmission",
+      "rule_statement": "Sponsoring Ministry must send hard copy of the note to stakeholder Ministries on the same day as the memo date",
+      "direction": "Timely dispatch required",
+      "ministry_must_show": "Proof of same-day delivery of hard copy",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "3-meeting",
+      "rule_statement": "Sponsoring Ministry may convene meetings or video conferences for clarity on proposals",
+      "direction": "Facilitate discussions",
+      "ministry_must_show": "Meeting agenda and participant list",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "3-pursuit",
+      "rule_statement": "Sponsoring Ministry must vigorously pursue critical comments from consulted Ministries",
+      "direction": "Active follow-up required",
+      "ministry_must_show": "Documentation of follow-up efforts",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "98dd9c9920b68b979500655cd9743fdfda561db939cd39f2925f66a55de32cce": [
+    {
+      "clause_ref": "7-timeliness",
+      "rule_statement": "Regular review of pendency in Senior Officers' Meetings for Cabinet/Cabinet Committee Notes is mandatory",
+      "direction": "Conduct regular reviews",
+      "ministry_must_show": "Evidence of meetings and follow-ups on pending notes",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5-timeliness",
+      "rule_statement": "Sponsoring and consulted Ministries must adhere to revised timelines for finalizing Cabinet/CCEA notes",
+      "direction": "Strict adherence to timelines",
+      "ministry_must_show": "Compliance with specified timelines for each activity",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "upload-portal",
+      "rule_statement": "Ministries must upload bare details of Cabinet/CCEA notes on the designated portal",
+      "direction": "Upload required information",
+      "ministry_must_show": "Confirmation of uploaded details on the portal",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "sensitive-modification",
+      "rule_statement": "Sensitive subjects may be modified or redacted when uploading information on the portal",
+      "direction": "Modify sensitive content",
+      "ministry_must_show": "Justification for modifications or redactions",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "6-timeliness",
+      "rule_statement": "Comments from consulted Ministries on Detailed Papers must be submitted within specified timelines",
+      "direction": "Timely submission of comments",
+      "ministry_must_show": "Submission records of comments within deadlines",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "28bf7bec516cc2fcf034a52c47fd2ce3de04bdc91d02032742155c7028e9cc5c": [
+    {
+      "clause_ref": "2-cabinet-approval",
+      "rule_statement": "For schemes needing Cabinet approval, the Secretary (Expenditure) chairs the Expenditure Finance Committee/Public Investment Board",
+      "direction": "Chairperson designation",
+      "ministry_must_show": "Compliance with this chairing requirement",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "b5e9dd37f580821e64fa2e7d3301556f00c9101cb0a7f6e3ae0be08b2012d5d7": [
+    {
+      "clause_ref": "continuation-schemes",
+      "rule_statement": "Ongoing schemes of scientific Ministries/Departments must continue post Finance Commission cycle",
+      "direction": "Ensure scheme continuity",
+      "ministry_must_show": "Evidence of ongoing scheme relevance and funding",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "0171d5a6bbc45777e97527307db3a88eef77f8211c45962fd8f2e597d7c81ff0": [],
+  "8a129a6683646bda9e52139ee7bf1bf15d6d6ab7d6a0a79a1d2db8634ad9cd0e": [
+    {
+      "clause_ref": "3",
+      "rule_statement": "Procedure in paragraph 2 applies to all schemes/projects cleared by the Digital Communications Commission needing Cabinet approval",
+      "direction": "Follow established procedure",
+      "ministry_must_show": "Compliance with paragraph 2 procedures",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "a89033d6dc508dec39358f5e3985d359b4c7485a68877c9abd48b5567dfca886": [],
+  "ba4cc00b95e2499bdb47d835abc1b007b577c11725dd0f033f301ecc7bae88f7": [],
+  "26278407d1c8fa0c030423ed219f8f9624d8920308ef1d292cdbe4d4b802a5a0": [],
+  "18c581b8dd2b189297a9259e0dd7a32a98b79596aeaecdc4679f907585da6634": [
+    {
+      "clause_ref": "2-outcome-review",
+      "rule_statement": "Achievements of Outcome Budget 2025-26 will be reviewed in FY 2026-27 and adjusted annually",
+      "direction": "Annual review required",
+      "ministry_must_show": "Report on achievements and proposed changes",
+      "om_id": "OM-3",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-10-31",
+      "nature": "Performance-Linked",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,sector"
+    }
+  ],
+  "74b60987ed0e74407b7dbe3b13846d07fadc263801b129720f1b540ae5cee899": [],
+  "52f2de5c63110f1a0a24f3313ebbd8afca899fa73a865057dd84158f4b0a9522": [
+    {
+      "clause_ref": "4-outlay",
+      "rule_statement": "Financial outlay for CSs must be at least Rs. 50 crore for five years",
+      "direction": "Minimum financial requirement",
+      "ministry_must_show": "Proof of financial outlay compliance",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5-evaluation",
+      "rule_statement": "CS schemes under Rs. 100 crore must show purpose achievement in FC cycle; exceptions need evaluation report",
+      "direction": "Performance evaluation required",
+      "ministry_must_show": "Evaluation report justifying continuation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5-appraisal",
+      "rule_statement": "Continuing exceptional CS schemes must undergo appraisal/approval as per DoE OM No.24(35)/PF-II/2012",
+      "direction": "Appraisal process mandatory",
+      "ministry_must_show": "Submit for appraisal/approval as per guidelines",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "8a3ccaaaf2fd7e228fe672cfea145cc32f9b4462c236d630f28715858b36303d": [
+    {
+      "clause_ref": "8-fund-limited",
+      "rule_statement": "Total sanctions over the FC cycle must not exceed the approved outlay for FUND LIMITED schemes",
+      "direction": "Adhere to funding limits",
+      "ministry_must_show": "Compliance with approved outlay documentation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "9-saturation-demand",
+      "rule_statement": "Outlay for saturation schemes based on estimated beneficiaries, with carry forward flexibility within approved outlay",
+      "direction": "Estimate beneficiaries accurately",
+      "ministry_must_show": "EFC Memo detailing spillover expenditure",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "9-upward-revision",
+      "rule_statement": "Seek specific approval from competent authority for increased outlay if beneficiary numbers rise beyond projections",
+      "direction": "Approval for outlay increase",
+      "ministry_must_show": "Request with DoE concurrence for increased outlay",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "x-funding-pattern",
+      "rule_statement": "Funding pattern for CSS must align with NITI Aayog's specified guidelines",
+      "direction": "Follow NITI Aayog guidelines",
+      "ministry_must_show": "Compliance with NITI Aayog's OM references",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xi-evaluation-response",
+      "rule_statement": "Respond quickly to draft evaluation reports from NITI Aayog to finalize recommendations",
+      "direction": "Timely feedback required",
+      "ministry_must_show": "Response to draft evaluation report",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xii-continuation-approval",
+      "rule_statement": "Continuation approval requires positive evaluation outcomes and justification for ongoing need",
+      "direction": "Justify scheme continuation",
+      "ministry_must_show": "Assessment report supporting continuation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xiii-modifications",
+      "rule_statement": "Schemes may continue as is or with modifications based on evaluation findings",
+      "direction": "Adapt based on evaluation",
+      "ministry_must_show": "Proposed modifications if applicable",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xiv-xvi-fc",
+      "rule_statement": "Consider XVIth FC recommendations when appraising schemes for continuation and financial outlay",
+      "direction": "Incorporate FC recommendations",
+      "ministry_must_show": "Documentation of FC recommendations in appraisal",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "xv-state-engagement",
+      "rule_statement": "Engage with States to prioritize national goals and ensure synergy in expenditure for continuing schemes",
+      "direction": "Collaborate with States",
+      "ministry_must_show": "Evidence of engagement with State authorities",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "b0fa7446571ba61bfff1fb7ae50ca633dab31bb0eb2a2ff4b915de5d6c4cac62": [
+    {
+      "clause_ref": "4-appraisal",
+      "rule_statement": "Fresh appraisal and approval required for schemes beyond 31.03.2026",
+      "direction": "Fresh appraisal mandatory",
+      "ministry_must_show": "Composite appraisal report for all schemes",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "scheme-structure",
+      "rule_statement": "Schemes must maintain consistency in funding patterns across components unless justified",
+      "direction": "Consistency required",
+      "ministry_must_show": "Justification for any deviations",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "aadhaar-implementation",
+      "rule_statement": "Proposals must include Aadhaar authentication for direct benefits and use AEPS for disbursement",
+      "direction": "Aadhaar authentication mandatory",
+      "ministry_must_show": "Implementation plan for AEPS",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "flexibility",
+      "rule_statement": "Inter-component resource transfer allowed but must have a ceiling to prevent overspending",
+      "direction": "Ceiling on resource transfer",
+      "ministry_must_show": "Approval and justification in Appraisal Memo",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "flexi-fund",
+      "rule_statement": "Use 25% flexi-fund allowance for CSSs as per NITI Aayog guidelines",
+      "direction": "Utilize flexi-fund",
+      "ministry_must_show": "Plan for flexi-fund usage",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "rationalisation",
+      "rule_statement": "Rationalization of schemes through redesign, restructuring, or closure based on evaluations",
+      "direction": "Rationalization required",
+      "ministry_must_show": "Rationalization proposal based on evaluations",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "convergence",
+      "rule_statement": "Proposals must show convergence with similar schemes to avoid overlap",
+      "direction": "Ensure convergence",
+      "ministry_must_show": "Convergence architecture in proposal",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "merger-exploration",
+      "rule_statement": "Examine ongoing schemes for potential merger or dropping due to overlapping objectives",
+      "direction": "Explore mergers",
+      "ministry_must_show": "Analysis of overlapping schemes",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "administrative-expenses",
+      "rule_statement": "Avoid unnecessary administrative expenses and establish a single monitoring body",
+      "direction": "Minimize administrative costs",
+      "ministry_must_show": "Plan for monitoring body establishment",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "post-creation",
+      "rule_statement": "CSSs and CSs should not create permanent posts",
+      "direction": "No permanent posts",
+      "ministry_must_show": "Confirmation of no permanent posts",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "f2cd2c984eb6052e7b58d89ba6f55d77de927e569d800d8efcaeea92c5114941": [],
+  "3706ac871edb63eb40db92927cfeb0ce5778aff1501fe307ea4f9dd777215d3b": [],
+  "9dfc79e8408c101b68303f1f5ca7bb9d2e7712aa45742003837e7fbb23758f94": [
+    {
+      "clause_ref": "1-business-impact",
+      "rule_statement": "Ministries affected as per Rule 4 of Transaction of Business Rules must comply",
+      "direction": "Compliance required",
+      "ministry_must_show": "Evidence of adherence to Rule 4",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2-consultation-selection",
+      "rule_statement": "Select Ministries for consultations carefully to minimize delays",
+      "direction": "Reduce delays",
+      "ministry_must_show": "Rationale for selected Ministries",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "623f421c6f550f1de233450e4e37859bb57ed97dd61eb5d3e22ff0c43801e7c3": [
+    {
+      "clause_ref": "3-transmission",
+      "rule_statement": "Sponsoring Ministry must dispatch hard copy of notes to stakeholders on the same day as the forwarding memo date",
+      "direction": "Timely dispatch required",
+      "ministry_must_show": "Proof of same-day delivery of hard copy",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "3-review",
+      "rule_statement": "Regular review of pending Cabinet notes in Senior Officers' Meetings is mandatory",
+      "direction": "Conduct regular reviews",
+      "ministry_must_show": "Records of review meetings and follow-ups",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "3-portal-upload",
+      "rule_statement": "Ministries must upload details of Cabinet/CCEA notes on the Samiksha portal, excluding sensitive content",
+      "direction": "Upload required details",
+      "ministry_must_show": "Confirmation of uploaded details on the portal",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5-collaboration",
+      "rule_statement": "Both sponsoring and consulted Ministries must adhere to revised timelines for finalizing Cabinet notes",
+      "direction": "Adhere to timelines",
+      "ministry_must_show": "Evidence of compliance with timelines",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "6-dissemination",
+      "rule_statement": "Instructions must be disseminated to all concerned for strict compliance",
+      "direction": "Disseminate instructions",
+      "ministry_must_show": "Confirmation of dissemination to all relevant parties",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "revised-timelines-1",
+      "rule_statement": "Consulted Ministries must provide comments on Detailed Paper within 21 days",
+      "direction": "Comments due in 21 days",
+      "ministry_must_show": "Submission of comments within the timeline",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "revised-timelines-2",
+      "rule_statement": "Sponsoring Ministry to prepare final EFC/PB memo within 14 days of receiving comments",
+      "direction": "Finalize memo in 14 days",
+      "ministry_must_show": "Final EFC/PB memo submission",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "revised-timelines-3",
+      "rule_statement": "Department of Expenditure to fix EFC/PIB meeting date within 7 days of receiving final memo",
+      "direction": "Set meeting date in 7 days",
+      "ministry_must_show": "Confirmation of meeting date set",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "revised-timelines-5",
+      "rule_statement": "Sponsoring Ministry must circulate draft Cabinet note to D/o Expenditure within 7 days for approval",
+      "direction": "Circulate draft in 7 days",
+      "ministry_must_show": "Draft note circulation confirmation",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "revised-timelines-6(i)",
+      "rule_statement": "Consulted Ministries must provide comments on legislative proposals within 21 days",
+      "direction": "Comments due in 21 days",
+      "ministry_must_show": "Submission of comments within the timeline",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "revised-timelines-6(ii)",
+      "rule_statement": "Consulted Ministries must provide comments on appraised proposals within 7 days",
+      "direction": "Comments due in 7 days",
+      "ministry_must_show": "Submission of comments within the timeline",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "revised-timelines-6-other",
+      "rule_statement": "Other proposals must have comments submitted within 14 days",
+      "direction": "Comments due in 14 days",
+      "ministry_must_show": "Submission of comments within the timeline",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "revised-timelines-7",
+      "rule_statement": "Sponsoring Ministry must finalize and circulate Cabinet note immediately after completion",
+      "direction": "Finalize and circulate immediately",
+      "ministry_must_show": "Confirmation of circulation to Cabinet Secretariat",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "revised-timelines-8",
+      "rule_statement": "Cabinet Secretariat must furnish comments to sponsoring Ministry within 7 days",
+      "direction": "Comments due in 7 days",
+      "ministry_must_show": "Submission of comments within the timeline",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "a9add5061c46e81622b0e36b8b7c93cd1eb4387101406c3980346271113faf0b": [
+    {
+      "clause_ref": "continuation-schemes",
+      "rule_statement": "Ongoing schemes of scientific Ministries/Departments continue post Finance Commission cycle",
+      "direction": "Continuation allowed",
+      "ministry_must_show": "Evidence of ongoing scheme performance",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "new-schemes",
+      "rule_statement": "New schemes/projects involving subsidies/grants to private sector require compliance",
+      "direction": "Compliance required for new schemes",
+      "ministry_must_show": "Detailed proposal including financial implications",
+      "om_id": "OM-5",
+      "om_number": "01(01)/PFC-II/2025",
+      "date": "2025-06-06",
+      "nature": "Continuation Compliance",
+      "applies_to": "continuation",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "5751e3234634cfc1b7575d10c49f011a7d76f1fc5241ec71726cf9f109851e64": [],
+  "e88927980226dd1773660368cce1b22299c2a15a3a170d3ea5302ec35d6e0d6d": [
+    {
+      "clause_ref": "5-PPP-appraisal",
+      "rule_statement": "Separate orders from Department of Economic Affairs apply for PPP project appraisal and approval",
+      "direction": "Follow specific orders",
+      "ministry_must_show": "Compliance with Department of Economic Affairs orders",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "9-cost-increase",
+      "rule_statement": "Cost increases up to 20% due to various reasons approved by Secretary with Financial Adviser's concurrence",
+      "direction": "Approval required for cost increase",
+      "ministry_must_show": "Secretary's approval and Financial Adviser's concurrence",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "9-revised-cost-committee",
+      "rule_statement": "Increases beyond 20% must be reviewed by a Revised Cost Committee before further approval",
+      "direction": "Committee review mandatory",
+      "ministry_must_show": "Submission to Revised Cost Committee for review",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "10-pre-investment",
+      "rule_statement": "Pre-investment activities up to Rs. 100 crore can be approved by Secretary with Financial Adviser's concurrence",
+      "direction": "Approval for pre-investment activities",
+      "ministry_must_show": "Financial resources availability and in-principle approval",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "10-pre-investment-above-100",
+      "rule_statement": "Pre-investment activities above Rs. 100 crore require full appraisal and approval procedure",
+      "direction": "Full appraisal needed",
+      "ministry_must_show": "Follow prescribed appraisal and approval process",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "medium-term-outlay",
+      "rule_statement": "All Ministries must conduct outcome reviews and resubmit schemes at the end of the Twelfth Plan period",
+      "direction": "Conduct outcome review",
+      "ministry_must_show": "Resubmission of schemes for appraisal and approval",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "outcomes-evaluation",
+      "rule_statement": "Ministries must prepare an output-outcome framework for each scheme with NITI Aayog's approval",
+      "direction": "Framework preparation required",
+      "ministry_must_show": "Output-outcome framework approved by NITI Aayog",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "evaluation-continuation",
+      "rule_statement": "Continuation of schemes requires third-party evaluation results",
+      "direction": "Evaluation mandatory for continuation",
+      "ministry_must_show": "Results of third-party evaluation",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "70b8025ab7018b28777faae71f4fcc6f63b236df82b965060f82c96b5a0993d6": [],
+  "a9a89f8e2cd192cc8922339ea9bfa381f98db043581f64f93647cc15b4d91772": [
+    {
+      "clause_ref": "timeframe-approval",
+      "rule_statement": "Submit Concept Paper/Feasibility Report to start scheme/project cycle",
+      "direction": "Initiate project cycle",
+      "ministry_must_show": "Concept Paper or Feasibility Report submission",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "4-weeks-appraisal",
+      "rule_statement": "DoE, NITI Aayog, and agencies to provide appraisal comments within 4 weeks",
+      "direction": "Timely appraisal required",
+      "ministry_must_show": "Appraisal Note and Comments on DP/DPR",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2-weeks-final-memo",
+      "rule_statement": "Prepare and circulate final EFC/PIB Memo based on received comments within 2 weeks",
+      "direction": "Finalize and circulate memo",
+      "ministry_must_show": "Final EFC/PIB Memo with comments incorporated",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "1-week-appraisal-approval",
+      "rule_statement": "Complete appraisal and approval process within 1 week after final memo",
+      "direction": "Swift approval process",
+      "ministry_must_show": "Approval documentation ready",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "1-week-fixing-meeting",
+      "rule_statement": "Fix EFC/PIB meeting date within 1 week of final memo receipt",
+      "direction": "Schedule meeting promptly",
+      "ministry_must_show": "Confirmed meeting date",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2-weeks-minutes",
+      "rule_statement": "Issue EFC/PIB meeting minutes within 2 weeks after the meeting",
+      "direction": "Minutes issuance required",
+      "ministry_must_show": "Draft minutes for review",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2-weeks-on-file-approval",
+      "rule_statement": "Obtain on-file approval from Administrative and Finance Ministers within 2 weeks",
+      "direction": "Ministerial approval needed",
+      "ministry_must_show": "On-file approval documentation",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2-weeks-cabinet-approval",
+      "rule_statement": "Submit proposals above Rs. 1,000 crore for Cabinet approval within 2 weeks",
+      "direction": "Cabinet submission required",
+      "ministry_must_show": "Cabinet submission documentation",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "trigger-mechanism",
+      "rule_statement": "If timelines are missed, trigger mechanism to escalate for timely decisions",
+      "direction": "Escalation process needed",
+      "ministry_must_show": "Mechanism for escalation established",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "f8205049e2f339601b674c5b2f8937f79df003cd4c880477b600603af6701d40": [
+    {
+      "clause_ref": "1.1-1.12",
+      "rule_statement": "EFC/SFC memorandum must include detailed scheme outline and relevant information",
+      "direction": "Complete scheme outline required",
+      "ministry_must_show": "All specified details in the format",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2.1-2.4",
+      "rule_statement": "Outcomes and deliverables must be clearly defined with measurable indicators",
+      "direction": "Define outcomes clearly",
+      "ministry_must_show": "Measurable indicators and baseline data",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "3.1-3.6",
+      "rule_statement": "Target beneficiaries must be identified with specific interventions for vulnerable groups",
+      "direction": "Identify target beneficiaries",
+      "ministry_must_show": "Details on beneficiary identification and interventions",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "4.1-4.6",
+      "rule_statement": "Cost analysis must include detailed estimates and basis for costs",
+      "direction": "Provide detailed cost analysis",
+      "ministry_must_show": "Year-wise and component-wise cost estimates",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5.1-5.3",
+      "rule_statement": "Scheme financing sources must be clearly indicated",
+      "direction": "Specify financing sources",
+      "ministry_must_show": "Details on budgetary and external financing",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "6",
+      "rule_statement": "Mandatory approvals and clearances must be listed and their status indicated",
+      "direction": "List required approvals",
+      "ministry_must_show": "Table of approvals with availability status",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "7.1-7.3",
+      "rule_statement": "Administrative structure and manpower requirements must be outlined",
+      "direction": "Outline administrative structure",
+      "ministry_must_show": "Details on manpower and outsourcing plans",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "8.1-8.2",
+      "rule_statement": "Monitoring and evaluation framework must be established",
+      "direction": "Establish monitoring framework",
+      "ministry_must_show": "Monitoring and evaluation arrangements",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "10",
+      "rule_statement": "An Executive Summary must accompany the proposal",
+      "direction": "Attach Executive Summary",
+      "ministry_must_show": "Executive Summary with main elements of the scheme",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "ead32d8fe30e40981ef8a7db15dbc30be2ab1dc7cfa2320bf38eca43e5fe31b6": [
+    {
+      "clause_ref": "1.1-1.10",
+      "rule_statement": "Complete project outline including title, agency, cost, timelines, and feasibility reports is required.",
+      "direction": "Submit detailed project outline",
+      "ministry_must_show": "All specified project details in the format",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "2.1-2.3",
+      "rule_statement": "Define project aims, year-wise outputs, and measurable indicators for impact assessment.",
+      "direction": "Clearly state project outcomes",
+      "ministry_must_show": "Outcomes and deliverables in tabular form",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "3.1-3.6",
+      "rule_statement": "Provide detailed cost estimates, including land acquisition and price escalation considerations.",
+      "direction": "Detailed cost analysis required",
+      "ministry_must_show": "Cost estimates and basis for calculations",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "4.1-4.7",
+      "rule_statement": "Indicate sources of finance, cost-sharing components, and funding tie-ups for loans.",
+      "direction": "Clarify project financing",
+      "ministry_must_show": "Sources and terms of project finance",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5.1-5.3",
+      "rule_statement": "Calculate financial and economic internal rates of return for project viability.",
+      "direction": "Assess project viability",
+      "ministry_must_show": "Financial and economic return calculations",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "approvals",
+      "rule_statement": "List mandatory approvals and clearances required for the project.",
+      "direction": "Document required approvals",
+      "ministry_must_show": "Table of approvals and their status",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "7.1-7.3",
+      "rule_statement": "Outline administrative structure and manpower requirements for project implementation.",
+      "direction": "Define HR structure",
+      "ministry_must_show": "Administrative and manpower details",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "8.1-8.5",
+      "rule_statement": "Establish monitoring and evaluation framework, including timelines and impact assessment.",
+      "direction": "Set monitoring framework",
+      "ministry_must_show": "Monitoring and evaluation arrangements",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "10",
+      "rule_statement": "Attach an Executive Summary along with the Feasibility Report/Detailed Project Report.",
+      "direction": "Include summary and reports",
+      "ministry_must_show": "Executive summary and project reports",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "ac80e466cf785aa5df4d768e7d2858e0b98aa87ed4c564f58b8ec21c7e614044": [],
+  "55a859aa0af31fb8f304535f7f3ba24c6d232cc4b4c3830c56040424a6bc4d0b": [
+    {
+      "clause_ref": "4-approval",
+      "rule_statement": "Output-outcome framework must be approved by CEO, NITI Aayog by 30 June 2016",
+      "direction": "Approval deadline set",
+      "ministry_must_show": "Approval from CEO, NITI Aayog",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "5-evaluation",
+      "rule_statement": "Each scheme must have an evaluation framework; continuation depends on NITI Aayog's evaluation results",
+      "direction": "Evaluation required for continuation",
+      "ministry_must_show": "Evaluation framework and results",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    },
+    {
+      "clause_ref": "outcome-parameters",
+      "rule_statement": "Identify outcome parameters as true indicators of desired outcomes; prioritize this task",
+      "direction": "Top priority for outcome indicators",
+      "ministry_must_show": "List of identified outcome parameters",
+      "om_id": "OM-1",
+      "om_number": "24(35)/PF-II/2012",
+      "date": "2016-08-05",
+      "nature": "Expenditure Control",
+      "applies_to": "new_scheme,continuation,project",
+      "agent_scope": "compliance,fiscal"
+    }
+  ],
+  "b6fd4fd9d86529844e65995ce2fce018af3587ae63de7840dc36ef3cdb1b19d5": [],
+  "6915da483f1dbf72ff6ea216a0428256b9d26a9051a2e88a15568a8ac1742d95": [],
+  "9e9bf00b7445b3d4c7be7049668cf94cea9f3cd94eb3f21237247df2700ebedf": [
+    {
+      "clause_ref": "4.4",
+      "rule_statement": "No CSS will be sanctioned if central share is less than 50%",
+      "direction": "Funding threshold established",
+      "ministry_must_show": "Justification for any CSS below 50% central share",
+      "om_id": "OM-4",
+      "om_number": "O-11013/02/2015-CSS & CMC",
+      "date": "2016-08-17",
+      "nature": "Structural Rationalisation",
+      "applies_to": "continuation,new_scheme",
+      "agent_scope": "sector,compliance"
+    },
+    {
+      "clause_ref": "11.4",
+      "rule_statement": "Core and Optional Schemes funded 100% by Centre in UTs without legislature; 80-20% in those with legislature",
+      "direction": "Funding pattern specified",
+      "ministry_must_show": "Funding pattern compliance for UTs",
+      "om_id": "OM-4",
+      "om_number": "O-11013/02/2015-CSS & CMC",
+      "date": "2016-08-17",
+      "nature": "Structural Rationalisation",
+      "applies_to": "continuation,new_scheme",
+      "agent_scope": "sector,compliance"
+    },
+    {
+      "clause_ref": "10.1",
+      "rule_statement": "NITI Aayog to monitor and evaluate important CSS, focusing on outcomes over expenditure",
+      "direction": "Outcome monitoring required",
+      "ministry_must_show": "Evaluation reports on scheme outcomes",
+      "om_id": "OM-4",
+      "om_number": "O-11013/02/2015-CSS & CMC",
+      "date": "2016-08-17",
+      "nature": "Structural Rationalisation",
+      "applies_to": "continuation,new_scheme",
+      "agent_scope": "sector,compliance"
+    },
+    {
+      "clause_ref": "12.1",
+      "rule_statement": "Provisions to be reviewed after two years for course correction",
+      "direction": "Periodic review mandated",
+      "ministry_must_show": "Review findings and proposed adjustments",
+      "om_id": "OM-4",
+      "om_number": "O-11013/02/2015-CSS & CMC",
+      "date": "2016-08-17",
+      "nature": "Structural Rationalisation",
+      "applies_to": "continuation,new_scheme",
+      "agent_scope": "sector,compliance"
+    }
+  ],
+  "df1021ef3c8dac079056a1e9fa1be91922c8c8f2ff6adacc2e203ed647244b33": []
+}
