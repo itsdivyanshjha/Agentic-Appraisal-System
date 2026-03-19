@@ -67,6 +67,31 @@ def tag_chunk(chunk: dict, filename: str) -> dict:
     }
 
 
+def tag_chunk_with_metadata(chunk: dict, filename: str, metadata: dict) -> dict:
+    """Tag a chunk using pre-resolved metadata (from document classifier).
+
+    Args:
+        chunk: Dict with 'text' and 'section_heading' keys.
+        filename: Source PDF filename.
+        metadata: Pre-resolved metadata dict from classify_document().
+
+    Returns:
+        Dict with full metadata added.
+    """
+    return {
+        "text": chunk["text"],
+        "section_heading": chunk.get("section_heading", ""),
+        "om_id": metadata.get("om_id", "unknown"),
+        "om_number": metadata.get("om_number", "unknown"),
+        "doc_type": metadata.get("doc_type", "unknown"),
+        "nature": metadata.get("nature", "unknown"),
+        "date": metadata.get("date", "unknown"),
+        "applies_to": metadata.get("applies_to", ""),
+        "agent_scope": metadata.get("agent_scope", ""),
+        "source_file": filename,
+    }
+
+
 def tag_reference_chunk(chunk: dict, doc_type: str, doc_title: str, agent_scope: list[str], source_file: str) -> dict:
     """Tag a reference document chunk with metadata.
 

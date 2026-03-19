@@ -170,3 +170,26 @@ def get_om_by_id(om_id: str) -> dict | None:
 def get_file_info(filename: str) -> dict | None:
     """Look up file mapping info by filename."""
     return FILE_TO_OM_MAP.get(filename)
+
+
+def get_all_file_metadata() -> dict:
+    """Merge FILE_TO_OM_MAP with auto-discovered documents cache.
+
+    Returns a unified dict of filename -> metadata for all known documents.
+    """
+    import json
+    from config.settings import EXTRACTION_CACHE_DIR
+
+    merged = dict(FILE_TO_OM_MAP)
+
+    discovered_path = EXTRACTION_CACHE_DIR / "discovered_documents.json"
+    if discovered_path.exists():
+        try:
+            discovered = json.loads(discovered_path.read_text(encoding="utf-8"))
+            for filename, meta in discovered.items():
+                if filename not in merged:
+                    merged[filename] = meta
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    return merged

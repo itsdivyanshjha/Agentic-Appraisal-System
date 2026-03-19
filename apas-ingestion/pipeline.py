@@ -1,13 +1,15 @@
 """APAS Document Ingestion Pipeline — main orchestrator.
 
 Pipeline steps:
-1. Parse & chunk source OM PDFs
-2. Extract structured rules via LLM (GPT-4o-mini via OpenRouter)
+1. Parse & chunk all source PDFs (split into OM chunks + reference chunks)
+2. Extract structured rules via LLM (OM chunks only)
 3. Ingest extracted rules into structured_rules collection
 4. Ingest enriched OM chunks into om_document_chunks collection
-5. Ingest reference documents (optional)
+5. Ingest reference chunks into reference_corpus collection
 """
 
+import argparse
+import json
 import logging
 import sys
 from pathlib import Path
@@ -18,26 +20,28 @@ from rich.progress import Progress, SpinnerColumn, TextColumn
 
 from config.settings import (
     SOURCE_DOCS_DIR,
-    REFERENCE_DOCS_DIR,
     OPENROUTER_API_KEY,
     STRUCTURED_RULES_COLLECTION,
     OM_CHUNKS_COLLECTION,
     REFERENCE_CORPUS_COLLECTION,
+    EXTRACTION_CACHE_DIR,
     LOG_LEVEL,
 )
 from config.document_registry import OM_REGISTRY, FILE_TO_OM_MAP
 from embeddings.embedder import embed_texts
 from stores.chroma_store import (
     clear_all_collections,
+    clear_collection,
     get_or_create_collection,
     add_to_collection,
     get_collection_stats,
 )
 from parsers.pdf_parser import parse_pdf
 from chunkers.chunk_router import route_chunker
-from taggers.metadata_tagger import tag_chunk, tag_reference_chunk
+from taggers.metadata_tagger import tag_chunk_with_metadata
 from extractors.rule_extractor import extract_rules_batch
 from enrichers.context_prepender import prepend_context, prepend_reference_context
+from extractors.document_classifier import classify_document
 
 # Setup logging
 logging.basicConfig(
@@ -49,40 +53,68 @@ logger = logging.getLogger(__name__)
 console = Console()
 
 
-def parse_and_chunk_source_pdfs() -> list[dict]:
-    """Step 1: Parse and chunk all source OM PDFs. Returns tagged chunks in memory."""
-    console.print("\n[bold cyan]═══ Step 1: Parsing & Chunking Source OM PDFs ═══[/bold cyan]")
+# ─── Cache paths ───
+
+OM_CHUNKS_CACHE = Path(EXTRACTION_CACHE_DIR) / "om_chunks.json"
+REF_CHUNKS_CACHE = Path(EXTRACTION_CACHE_DIR) / "reference_chunks.json"
+RULES_CACHE_FILE = Path(EXTRACTION_CACHE_DIR) / "extracted_rules.json"
+
+
+def _save_json(path: Path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+
+
+def _load_json(path: Path):
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    return None
+
+
+# ─── Step 1 ───
+
+def parse_and_chunk_source_pdfs() -> tuple[list[dict], list[dict]]:
+    """Step 1: Parse and chunk all source PDFs.
+
+    Returns two lists:
+      - om_chunks: chunks from registered OM PDFs (→ om_document_chunks + structured_rules)
+      - reference_chunks: chunks from auto-discovered PDFs (→ reference_corpus)
+    """
+    console.print("\n[bold cyan]═══ Step 1: Parsing & Chunking Source PDFs ═══[/bold cyan]")
 
     source_dir = Path(SOURCE_DOCS_DIR)
     if not source_dir.exists():
         console.print(f"  [yellow]⚠ Source directory not found: {source_dir}[/yellow]")
-        return []
+        return [], []
 
-    # Find PDFs that are in our registry
-    pdf_files = list(source_dir.glob("*.pdf")) + list(source_dir.glob("*.PDF"))
-    registered_pdfs = [f for f in pdf_files if f.name in FILE_TO_OM_MAP]
-    unregistered_pdfs = [f for f in pdf_files if f.name not in FILE_TO_OM_MAP]
+    # Deduplicate (Windows case-insensitive glob)
+    pdf_files = list({f.name: f for f in list(source_dir.glob("*.pdf")) + list(source_dir.glob("*.PDF"))}.values())
+    if not pdf_files:
+        console.print("  [yellow]⚠ No PDFs found in source directory[/yellow]")
+        return [], []
 
-    if unregistered_pdfs:
-        console.print(f"  [yellow]⚠ {len(unregistered_pdfs)} PDFs not in registry (skipped):[/yellow]")
-        for f in unregistered_pdfs:
-            console.print(f"    - {f.name}")
+    registered_count = sum(1 for f in pdf_files if f.name in FILE_TO_OM_MAP)
+    new_count = len(pdf_files) - registered_count
+    console.print(f"  Found {len(pdf_files)} PDFs ({registered_count} registered OMs, {new_count} reference/auto-discovered)")
 
-    if not registered_pdfs:
-        console.print("  [yellow]⚠ No registered PDFs found in source directory[/yellow]")
-        return []
+    om_chunks = []
+    reference_chunks = []
 
-    console.print(f"  Found {len(registered_pdfs)} registered PDFs to process")
-
-    all_tagged_chunks = []
-
-    for pdf_path in registered_pdfs:
+    for pdf_path in pdf_files:
         filename = pdf_path.name
-        file_info = FILE_TO_OM_MAP[filename]
-        doc_type = file_info["doc_type"]
+
+        # Classify document (registry fast path or auto-discovery)
+        metadata = classify_document(pdf_path)
+        doc_type = metadata.get("doc_type", "om")
+        source = metadata.get("source", "unknown")
+
+        if source == "registry":
+            source_label = "registry → om_document_chunks"
+        else:
+            source_label = "[yellow]auto-discovered → reference_corpus[/yellow]"
 
         console.print(f"\n  Processing: [bold]{filename}[/bold]")
-        console.print(f"    OM: {file_info['om_id']} | Type: {doc_type}")
+        console.print(f"    {source_label} | Type: {doc_type}")
 
         # Parse
         text, parser_used = parse_pdf(pdf_path)
@@ -95,17 +127,22 @@ def parse_and_chunk_source_pdfs() -> list[dict]:
         chunks = route_chunker(text, doc_type)
         console.print(f"    Chunks: {len(chunks)}")
 
-        # Tag with metadata
+        # Tag and route to correct stream
         for chunk in chunks:
-            tagged = tag_chunk(chunk, filename)
-            all_tagged_chunks.append(tagged)
+            tagged = tag_chunk_with_metadata(chunk, filename, metadata)
+            if source == "registry":
+                om_chunks.append(tagged)
+            else:
+                reference_chunks.append(tagged)
 
-    console.print(f"\n  [green]✓[/green] Total tagged chunks: {len(all_tagged_chunks)}")
-    return all_tagged_chunks
+    console.print(f"\n  [green]✓[/green] OM chunks: {len(om_chunks)} | Reference chunks: {len(reference_chunks)}")
+    return om_chunks, reference_chunks
 
 
-def extract_structured_rules(tagged_chunks: list[dict]) -> list[dict]:
-    """Step 2: Extract structured rules from chunks using LLM."""
+# ─── Step 2 ───
+
+def extract_structured_rules(om_chunks: list[dict]) -> list[dict]:
+    """Step 2: Extract structured rules from OM chunks using LLM."""
     console.print("\n[bold cyan]═══ Step 2: Extracting Structured Rules via LLM ═══[/bold cyan]")
 
     if not OPENROUTER_API_KEY:
@@ -113,11 +150,11 @@ def extract_structured_rules(tagged_chunks: list[dict]) -> list[dict]:
         console.print("  [yellow]  Add OPENROUTER_API_KEY to .env and re-run.[/yellow]")
         return []
 
-    console.print(f"  Processing {len(tagged_chunks)} chunks through LLM extraction...")
+    console.print(f"  Processing {len(om_chunks)} OM chunks through LLM extraction...")
 
     with Progress(SpinnerColumn(), TextColumn("[progress.description]{task.description}"), console=console) as progress:
         task = progress.add_task("Extracting rules...", total=None)
-        extracted_rules = extract_rules_batch(tagged_chunks)
+        extracted_rules = extract_rules_batch(om_chunks)
         progress.update(task, completed=True)
 
     console.print(f"  [green]✓[/green] Extracted {len(extracted_rules)} structured rules")
@@ -139,6 +176,8 @@ def extract_structured_rules(tagged_chunks: list[dict]) -> list[dict]:
     return unique_rules
 
 
+# ─── Step 3 ───
+
 def ingest_structured_rules(extracted_rules: list[dict]):
     """Step 3: Embed and store extracted rules into structured_rules collection."""
     console.print("\n[bold cyan]═══ Step 3: Ingesting Structured Rules ═══[/bold cyan]")
@@ -147,7 +186,9 @@ def ingest_structured_rules(extracted_rules: list[dict]):
         console.print("  [yellow]⚠ No rules to ingest[/yellow]")
         return
 
-    collection = get_or_create_collection(STRUCTURED_RULES_COLLECTION)
+    # Always clear before re-ingesting to avoid stale/polluted data
+    console.print("  Clearing old structured_rules collection...")
+    collection = clear_collection(STRUCTURED_RULES_COLLECTION)
 
     ids = []
     documents = []
@@ -156,7 +197,6 @@ def ingest_structured_rules(extracted_rules: list[dict]):
     for rule in extracted_rules:
         rule_id = f"{rule['om_id']}_clause_{rule['clause_ref']}"
 
-        # Compose rich text for embedding (same format as old hand-crafted rules)
         rule_text = (
             f"OM {rule['om_number']} ({rule['date']}) - {rule['nature']}\n"
             f"Clause {rule['clause_ref']}: {rule['rule_statement']}\n"
@@ -181,136 +221,105 @@ def ingest_structured_rules(extracted_rules: list[dict]):
 
     console.print(f"  Prepared {len(ids)} structured rule entries")
 
-    # Embed
     with Progress(SpinnerColumn(), TextColumn("[progress.description]{task.description}"), console=console) as progress:
         progress.add_task("Embedding structured rules...", total=None)
         embeddings = embed_texts(documents)
 
-    # Store
     add_to_collection(collection, ids, embeddings, documents, metadatas)
     console.print(f"  [green]✓[/green] Loaded {len(ids)} rules into '{STRUCTURED_RULES_COLLECTION}'")
 
 
-def ingest_om_chunks(tagged_chunks: list[dict]):
+# ─── Step 4 ───
+
+def ingest_om_chunks(om_chunks: list[dict]):
     """Step 4: Embed and store enriched OM chunks into om_document_chunks collection."""
     console.print("\n[bold cyan]═══ Step 4: Ingesting OM Document Chunks ═══[/bold cyan]")
 
-    if not tagged_chunks:
-        console.print("  [yellow]⚠ No chunks to ingest[/yellow]")
+    if not om_chunks:
+        console.print("  [yellow]⚠ No OM chunks to ingest[/yellow]")
         return
 
-    collection = get_or_create_collection(OM_CHUNKS_COLLECTION)
+    # Clear to avoid duplicates from previous runs
+    console.print("  Clearing old om_document_chunks collection...")
+    collection = clear_collection(OM_CHUNKS_COLLECTION)
 
     ids = []
     documents = []
     metadatas = []
 
-    for i, chunk in enumerate(tagged_chunks):
-        file_info = FILE_TO_OM_MAP.get(chunk.get("source_file", ""), {})
+    for i, chunk in enumerate(om_chunks):
         om_id = chunk.get("om_id", "unknown")
         doc_type = chunk.get("doc_type", "unknown")
         filename = chunk.get("source_file", "unknown")
 
         chunk_id = f"{om_id}_{doc_type}_{filename}_{i}"
-
-        # Prepend document context for better embedding
         enriched_text = prepend_context(chunk["text"], chunk)
 
-        # Store enriched text as the document
         ids.append(chunk_id)
         documents.append(enriched_text)
 
-        # Metadata excludes the text field
         meta = {k: v for k, v in chunk.items() if k != "text"}
         metadatas.append(meta)
 
-    # Embed all chunks
-    console.print(f"  Embedding {len(documents)} enriched chunks...")
+    console.print(f"  Embedding {len(documents)} enriched OM chunks...")
     with Progress(SpinnerColumn(), TextColumn("[progress.description]{task.description}"), console=console) as progress:
-        progress.add_task("Embedding document chunks...", total=None)
+        progress.add_task("Embedding OM chunks...", total=None)
         embeddings = embed_texts(documents)
 
-    # Store
     add_to_collection(collection, ids, embeddings, documents, metadatas)
     console.print(f"  [green]✓[/green] Loaded {len(ids)} chunks into '{OM_CHUNKS_COLLECTION}'")
 
 
-def ingest_reference_docs():
-    """Step 5: Parse and embed reference documents (GFR, FC reports, etc.)."""
+# ─── Step 5 ───
+
+def ingest_reference_chunks(reference_chunks: list[dict]):
+    """Step 5: Embed and store reference document chunks into reference_corpus."""
     console.print("\n[bold cyan]═══ Step 5: Ingesting Reference Documents ═══[/bold cyan]")
 
-    ref_dir = Path(REFERENCE_DOCS_DIR)
-    if not ref_dir.exists():
-        console.print(f"  [yellow]⚠ Reference directory not found: {ref_dir}[/yellow]")
-        console.print("  [yellow]  This is optional — create it later to add GFR, FC reports, etc.[/yellow]")
+    if not reference_chunks:
+        console.print("  [yellow]⚠ No reference chunks to ingest[/yellow]")
         return
 
-    pdf_files = list(ref_dir.glob("*.pdf")) + list(ref_dir.glob("*.PDF"))
-    if not pdf_files:
-        console.print("  [yellow]⚠ No reference PDFs found[/yellow]")
-        return
+    console.print("  Clearing old reference_corpus collection...")
+    collection = clear_collection(REFERENCE_CORPUS_COLLECTION)
 
-    collection = get_or_create_collection(REFERENCE_CORPUS_COLLECTION)
+    ids = []
+    documents = []
+    metadatas = []
 
-    # Reference doc type inference from filename
-    def infer_doc_type(name: str) -> tuple[str, list[str]]:
-        name_lower = name.lower()
-        if "gfr" in name_lower or "general financial" in name_lower:
-            return "gfr", ["compliance", "fiscal"]
-        elif "finance commission" in name_lower or "fc_report" in name_lower:
-            return "fc_report", ["fiscal"]
-        elif "niti" in name_lower:
-            return "niti", ["sector"]
-        elif "budget" in name_lower:
-            return "budget", ["fiscal"]
-        else:
-            return "international", ["sector"]
-
-    all_ids = []
-    all_documents = []
-    all_metadatas = []
-
-    for pdf_path in pdf_files:
-        filename = pdf_path.name
-        doc_type, agent_scope = infer_doc_type(filename)
+    for i, chunk in enumerate(reference_chunks):
+        doc_type = chunk.get("doc_type", "unknown")
+        filename = chunk.get("source_file", "unknown")
         doc_title = filename.replace(".pdf", "").replace(".PDF", "").replace("_", " ")
 
-        console.print(f"\n  Processing reference: [bold]{filename}[/bold]")
-        console.print(f"    Type: {doc_type} | Scope: {agent_scope}")
+        chunk_id = f"ref_{doc_type}_{filename}_{i}"
 
-        text, parser_used = parse_pdf(pdf_path)
-        if not text:
-            console.print(f"    [red]✗ Failed to parse[/red]")
-            continue
-        console.print(f"    Parser: {parser_used} | Extracted: {len(text)} chars")
+        # Build reference metadata for context prepending
+        ref_meta = {
+            "doc_title": doc_title,
+            "doc_type": doc_type,
+            "section": chunk.get("section_heading", ""),
+        }
+        enriched_text = prepend_reference_context(chunk["text"], ref_meta)
 
-        chunks = route_chunker(text, doc_type)
-        console.print(f"    Chunks: {len(chunks)}")
+        ids.append(chunk_id)
+        documents.append(enriched_text)
 
-        for i, chunk in enumerate(chunks):
-            tagged = tag_reference_chunk(chunk, doc_type, doc_title, agent_scope, filename)
-            chunk_id = f"ref_{doc_type}_{filename}_{i}"
+        # Store full metadata for retrieval filtering
+        meta = {k: v for k, v in chunk.items() if k != "text"}
+        meta["doc_title"] = doc_title
+        metadatas.append(meta)
 
-            # Prepend context for reference docs too
-            enriched_text = prepend_reference_context(tagged["text"], tagged)
-
-            all_ids.append(chunk_id)
-            all_documents.append(enriched_text)
-            meta = {k: v for k, v in tagged.items() if k != "text"}
-            all_metadatas.append(meta)
-
-    if not all_documents:
-        console.print("  [yellow]⚠ No reference chunks to embed[/yellow]")
-        return
-
-    console.print(f"\n  Embedding {len(all_documents)} reference chunks...")
+    console.print(f"  Embedding {len(documents)} reference chunks...")
     with Progress(SpinnerColumn(), TextColumn("[progress.description]{task.description}"), console=console) as progress:
         progress.add_task("Embedding reference chunks...", total=None)
-        embeddings = embed_texts(all_documents)
+        embeddings = embed_texts(documents)
 
-    add_to_collection(collection, all_ids, embeddings, all_documents, all_metadatas)
-    console.print(f"  [green]✓[/green] Loaded {len(all_ids)} chunks into '{REFERENCE_CORPUS_COLLECTION}'")
+    add_to_collection(collection, ids, embeddings, documents, metadatas)
+    console.print(f"  [green]✓[/green] Loaded {len(ids)} chunks into '{REFERENCE_CORPUS_COLLECTION}'")
 
+
+# ─── Stats ───
 
 def print_stats():
     """Print final collection statistics."""
@@ -328,28 +337,68 @@ def print_stats():
     console.print(table)
 
 
+# ─── Main ───
+
 def main():
+    parser = argparse.ArgumentParser(description="APAS Document Ingestion Pipeline")
+    parser.add_argument("--resume", action="store_true",
+                        help="Resume from last run — skip clearing collections, use all caches")
+    parser.add_argument("--from-step", type=int, default=1, choices=[1, 2, 3, 4, 5],
+                        help="Start from this step (uses cached data for prior steps)")
+    args = parser.parse_args()
+
     console.print("[bold green]╔══════════════════════════════════════════╗[/bold green]")
     console.print("[bold green]║   APAS Document Ingestion Pipeline v2   ║[/bold green]")
     console.print("[bold green]╚══════════════════════════════════════════╝[/bold green]")
 
-    # Clear all collections for idempotent re-run
-    clear_all_collections()
+    if args.resume:
+        console.print("[yellow]  ► Resume mode — keeping existing collections[/yellow]")
 
-    # Step 1: Parse & chunk source PDFs (kept in memory)
-    tagged_chunks = parse_and_chunk_source_pdfs()
+    if not args.resume and args.from_step == 1:
+        clear_all_collections()
 
-    # Step 2: Extract structured rules via LLM
-    extracted_rules = extract_structured_rules(tagged_chunks)
+    om_chunks = None
+    reference_chunks = None
+    extracted_rules = None
 
-    # Step 3: Ingest extracted rules into structured_rules collection
-    ingest_structured_rules(extracted_rules)
+    # Step 1: Parse & chunk (split into OM + reference streams)
+    if args.from_step <= 1:
+        om_chunks, reference_chunks = parse_and_chunk_source_pdfs()
+        _save_json(OM_CHUNKS_CACHE, om_chunks)
+        _save_json(REF_CHUNKS_CACHE, reference_chunks)
+        console.print(f"  [dim]Saved chunks to cache[/dim]")
+    else:
+        console.print(f"\n[yellow]  ► Skipping to step {args.from_step} — loading cached data[/yellow]")
+        om_chunks = _load_json(OM_CHUNKS_CACHE)
+        reference_chunks = _load_json(REF_CHUNKS_CACHE)
+        if not om_chunks:
+            console.print("  [red]✗ No cached OM chunks found. Run without --from-step first.[/red]")
+            sys.exit(1)
+        console.print(f"  [green]✓[/green] Loaded {len(om_chunks)} OM chunks + {len(reference_chunks or [])} reference chunks from cache")
 
-    # Step 4: Ingest enriched OM chunks into om_document_chunks
-    ingest_om_chunks(tagged_chunks)
+    # Step 2: Extract structured rules (OM chunks only, uses extraction cache)
+    if args.from_step <= 2:
+        extracted_rules = extract_structured_rules(om_chunks)
+        _save_json(RULES_CACHE_FILE, extracted_rules)
 
-    # Step 5: Reference documents (optional)
-    ingest_reference_docs()
+    # Step 3: Ingest structured rules
+    if args.from_step <= 3:
+        if not extracted_rules:
+            extracted_rules = _load_json(RULES_CACHE_FILE)
+        if extracted_rules:
+            ingest_structured_rules(extracted_rules)
+        else:
+            console.print("  [yellow]⚠ No rules to ingest (no cache found)[/yellow]")
+
+    # Step 4: Ingest OM chunks
+    if args.from_step <= 4:
+        ingest_om_chunks(om_chunks)
+
+    # Step 5: Ingest reference chunks
+    if args.from_step <= 5:
+        if reference_chunks is None:
+            reference_chunks = _load_json(REF_CHUNKS_CACHE) or []
+        ingest_reference_chunks(reference_chunks)
 
     # Final stats
     print_stats()
